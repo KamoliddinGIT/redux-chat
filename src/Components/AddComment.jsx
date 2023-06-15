@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { v4 } from "uuid";
-import { addComment } from "../store/actions/actions";
+import { addComment } from "../store/reducers/reducer";
 import useHttp from "../hooks/useHttp";
 import moment from "moment/moment";
 import { toast } from "react-toastify";

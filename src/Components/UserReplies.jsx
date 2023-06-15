@@ -9,7 +9,7 @@ import {
   onlyMinusReplies,
   onlyPlusReplies,
   removeLikeReplies,
-} from "../store/actions/actions";
+} from "../store/reducers/reducer";
 import plus from "../images/plus.png";
 import minus from "../images/minus.png";
 import { toast } from "react-toastify";

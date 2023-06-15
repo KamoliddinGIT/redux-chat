@@ -1,8 +1,7 @@
 {
-  "homepage": "https://github.com/KamoliddinGIT/Redux-CHAT",
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": "false",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -23,8 +22,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "dev": "concurrently \"react-scripts start\" \"json-server --watch data.json -p 3001\"",
     "build": "react-scripts build",
