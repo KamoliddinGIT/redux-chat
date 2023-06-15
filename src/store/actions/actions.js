@@ -86,12 +86,12 @@ const deleteReplies = createAction("deleteReplies", (id) => {
   };
 });
 
-// const chatFetch = (request) => (dispatch) => {
-//   dispatch("chatFetching");
-//   request("http://localhost:3001/comments").then((data) =>
-//     dispatch(chatFetched(data))
-//   );
-// };
+const chatFetch = (request) => (dispatch) => {
+  dispatch("chatFetching");
+  request("http://localhost:3001/comments").then((data) =>
+    dispatch(chatFetched(data))
+  );
+};
 const removeComment = createAction("removeComment", (id) => {
   return {
     payload: id,
@@ -134,4 +134,5 @@ export {
   deleteReplies,
   replyUser,
   userDelete,
+  chatFetch,
 };

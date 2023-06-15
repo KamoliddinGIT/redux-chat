@@ -5,7 +5,7 @@ import useHttp from "./hooks/useHttp";
 import { useDispatch, useSelector } from "react-redux";
 import Loader from "./Components/Loader";
 import Error from "./Components/Error";
-import { chatFetched, chatFetching } from "./store/actions/actions";
+import { chatFetch } from "./store/actions/actions";
 import AddComment from "./Components/AddComment";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -15,10 +15,7 @@ const App = () => {
   const dispatch = useDispatch();
   const { comments, isLoading } = useSelector((state) => state);
   useEffect(() => {
-    dispatch(chatFetching());
-    request("http://localhost:3001/comments").then((data) =>
-      dispatch(chatFetched(data))
-    );
+    dispatch(chatFetch(request));
   }, []);
   const renderUsersList = (comments) => {
     if (comments.length === 0) {

@@ -10,7 +10,7 @@
       "id": 1,
       "content": "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.",
       "createdAt": "1 month ago",
-      "score": 45,
+      "score": 43,
       "user": {
         "image": {
           "png": "https://interactive-comments-section-azure.vercel.app/images/avatars/image-amyrobson.png",
@@ -23,7 +23,7 @@
           "id": "7815e7d4-d880-442a-99e7-236337c84aed",
           "content": "Kamoliddin\n",
           "createdAt": "15. 06 2023",
-          "score": 0,
+          "score": 1,
           "replyingTo": "amyrobson",
           "user": {
             "image": {
@@ -31,12 +31,12 @@
             },
             "username": "siredev"
           },
-          "limitPlus": false,
+          "limitPlus": true,
           "limitMinus": false
         }
       ],
-      "limitPlus": true,
-      "limitMinus": false
+      "limitPlus": false,
+      "limitMinus": true
     },
     {
       "id": 2,
@@ -91,7 +91,7 @@
       "id": "a9a19c7a-b263-4b23-a692-ece591af4349",
       "content": "I am SireDev!",
       "createdAt": "13. 06 2023",
-      "score": 0,
+      "score": 3,
       "user": {
         "image": {
           "png": "https://interactive-comments-section-azure.vercel.app/images/avatars/image-juliusomo.png"
@@ -99,7 +99,7 @@
         "username": "siredev"
       },
       "replies": [],
-      "limitPlus": false,
+      "limitPlus": true,
       "limitMinus": false
     }
   ]
